@@ -42,6 +42,9 @@ function equals() {
   shouldClearScreen = true;
 }
 
+/* 
+  random demos not related to project
+*/
 // let firstNumberButton = document.querySelector(".number-button");
 // console.log(firstNumberButton);
 // let allNumberButtons = document.querySelectorAll(".number-button");
