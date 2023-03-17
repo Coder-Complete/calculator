@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="top">
+        <div class="screen"></div>
+        <div class="clear" onclick="clearScreen()">Clear</div>
+      </div>
+      <div class="bottom">
+        <div class="button-container">
+          <div onclick="clickNumberButton(1)">1</div>
+          <div onclick="clickNumberButton(2)">2</div>
+          <div onclick="clickNumberButton(3)">3</div>
+          <div onclick="clickNumberButton(4)">4</div>
+          <div onclick="clickNumberButton(5)">5</div>
+          <div onclick="clickNumberButton(6)">6</div>
+          <div onclick="clickNumberButton(7)">7</div>
+          <div onclick="clickNumberButton(8)">8</div>
+          <div onclick="clickNumberButton(9)">9</div>
+        </div>
+        <div class="operations-container">
+          <div onclick="clickOperationButton('+')">+</div>
+          <div onclick="clickOperationButton('-')">-</div>
+          <div onclick="clickOperationButton('*')">*</div>
+          <div onclick="clickOperationButton('/')">/</div>
+          <div onclick="equals('=')">=</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  padding: 40px;
+}
+
+.calculator {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.top {
+  display: flex;
+}
+
+.screen {
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.clear {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.bottom {
+  display: flex;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-container div {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.operations-container div {
+  padding: 20px;
+  border: 1px solid black;
+}
